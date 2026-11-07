@@ -13,7 +13,7 @@ builds — it does not include the source code.
 
 ## Features
 
-- Full controller navigation (Xbox, PlayStation, Nintendo) or keyboard/mouse
+- Full controller navigation or keyboard/mouse
 - Recent games, Library, Yearly stats, Store, Friends and Steam Community
 - Memories Mode: revisits your play history after a while of inactivity
 - Optional AI analysis (disabled by default)
@@ -22,7 +22,7 @@ builds — it does not include the source code.
 
 ## Requirements
 
-- Windows 10 or 11 (64-bit)
+- Windows 10 or 11 (64-bit), or Linux (64-bit)
 - Steam client installed
 
 ## License

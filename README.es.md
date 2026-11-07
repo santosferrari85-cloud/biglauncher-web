@@ -13,7 +13,7 @@ app — no incluye el código fuente.
 
 ## Características
 
-- Navegación completa con mando (Xbox, PlayStation, Nintendo) o teclado/ratón
+- Navegación completa con mando o teclado/ratón
 - Recientes, Biblioteca, Estadísticas anuales, Tienda, Amigos y Comunidad de Steam
 - Modo Memorias: repasa tu historial jugado tras un rato de inactividad
 - Análisis con IA opcional (desactivado por defecto)
@@ -22,7 +22,7 @@ app — no incluye el código fuente.
 
 ## Requisitos
 
-- Windows 10 u 11 (64 bits)
+- Windows 10 u 11 (64 bits), o Linux (64 bits)
 - Cliente de Steam instalado
 
 ## Licencia

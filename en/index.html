@@ -22,6 +22,7 @@
         <a href="#capturas">Screenshots</a>
         <a href="#descarga">Download</a>
         <a href="#faq">FAQ</a>
+        <a href="#versiones">Releases</a>
         <a href="../index.html" class="nav-idioma">ES</a>
         <a href="https://github.com/santosferrari85-cloud/biglauncher-web" class="nav-github" target="_blank" rel="noopener">GitHub</a>
       </nav>
@@ -43,7 +44,7 @@
           <a href="#descarga" class="boton boton-primario">Download for free</a>
           <a href="https://github.com/santosferrari85-cloud/biglauncher-web" class="boton boton-secundario" target="_blank" rel="noopener">View on GitHub</a>
         </div>
-        <p class="hero-nota">Windows 10/11 · Requires Steam installed · Free, no ads</p>
+        <p class="hero-nota">Windows 10/11 and Linux · Requires Steam installed · Free, no ads</p>
       </div>
     </section>
 
@@ -146,7 +147,7 @@
         </a>
 
         <ul class="descarga-requisitos">
-          <li>Windows 10 or later (64-bit)</li>
+          <li>Windows 10 or later, or Linux (64-bit)</li>
           <li>Steam client installed</li>
           <li>Controller (recommended) or keyboard/mouse</li>
           <li>Optional Steam API Key, for full library, achievements and stats</li>
@@ -181,7 +182,7 @@
           <p>The Xbox controller is confirmed and tested. For PlayStation and
             Nintendo, BigLauncher can display button icons in that style from
             Settings, but it isn't guaranteed that the controller itself will
-            work correctly — it depends on whether Windows recognizes it as a
+            work correctly — it depends on whether your system recognizes it as a
             standard gamepad. Keyboard always works.</p>
         </details>
 
@@ -204,6 +205,17 @@
       </div>
     </section>
 
+    <!-- RELEASE HISTORY -->
+    <section id="versiones" class="seccion">
+      <div class="contenedor contenedor-estrecho">
+        <h2>Release history</h2>
+        <p class="seccion-intro">What's new in each published release, straight from GitHub. Release notes are written in Spanish.</p>
+        <div id="historial" class="historial" data-idioma="en" aria-live="polite">
+          <p class="historial-estado">Loading releases…</p>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="pie">
@@ -214,5 +226,6 @@
     </div>
   </footer>
 
+  <script src="../js/historial.js" defer></script>
 </body>
 </html>

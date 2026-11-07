@@ -306,6 +306,96 @@ h1, h2, h3 {
   font-size: 0.95rem;
 }
 
+/* Historial de versiones */
+
+.historial-estado {
+  text-align: center;
+  color: var(--texto-tenue);
+}
+
+.historial-estado a {
+  color: var(--foco);
+}
+
+.historial-version {
+  background-color: var(--panel);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+
+.historial-version summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+
+.historial-nombre {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.historial-actual {
+  background-color: var(--foco);
+  color: #06222c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.historial-cuerpo {
+  color: var(--texto-tenue);
+  font-size: 0.95rem;
+  margin-top: 12px;
+}
+
+.historial-cuerpo ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.historial-cuerpo li {
+  margin-bottom: 6px;
+}
+
+.historial-cuerpo h4 {
+  color: var(--texto);
+  margin: 1em 0 0.4em;
+}
+
+.historial-cuerpo p {
+  margin: 0 0 0.6em;
+}
+
+.historial-cuerpo code {
+  background-color: var(--borde);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.historial-enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--borde);
+  font-size: 0.85rem;
+}
+
+.historial-enlaces a {
+  color: var(--foco);
+}
+
+.historial-github {
+  margin-left: auto;
+}
+
 /* Pie */
 
 .pie {
@@ -321,6 +411,12 @@ h1, h2, h3 {
 
 .pie-interior p {
   margin: 0.3em 0;
+}
+
+@media (max-width: 960px) {
+  .nav-principal {
+    gap: 16px;
+  }
 }
 
 @media (max-width: 640px) {
